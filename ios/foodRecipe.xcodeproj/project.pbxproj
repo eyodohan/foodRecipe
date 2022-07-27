@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* foodRecipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* foodRecipeTests.m */; };
+		03635CB7678341F691E7475E /* RobotoCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7E82E2007BA4AF99AA4B873 /* RobotoCondensed-BoldItalic.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-foodRecipe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-foodRecipe.a */; };
+		0D340D979E2848758A32A1FE /* profile-pic-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D385AAC129D5416E81A1BCB2 /* profile-pic-4.png */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1B7360B11CF7469B8122FB2A /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69C745758D404252867AC356 /* Roboto-LightItalic.ttf */; };
+		2A41DE447D53420FA70376ED /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDDD1A4C23AB4FA28C381BD2 /* Roboto-Bold.ttf */; };
+		2A510CD1C9764A67A3907544 /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA13594AAB045E1A05BC2DB /* right-arrow.png */; };
+		2AECC739550B49C3B05A7D7F /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEEAB8F80C0B44BA9CD73FD4 /* Roboto-Italic.ttf */; };
+		2CB7F99403B44EF9839DA08A /* laksa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4D38FFF0D04C06A8B7DB06 /* laksa.png */; };
+		3624061180C348FC9A8EB3C0 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEB2DF5CCDAC48EAADD66C6F /* Roboto-BoldItalic.ttf */; };
+		36AA5912830741D1BE2B9E80 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECC61F0B53A43069019F087 /* home.png */; };
+		375B92EF2B5F4D259B6C86FB /* tomato.png in Resources */ = {isa = PBXBuildFile; fileRef = 558729F8EE7542ACBD5D22F8 /* tomato.png */; };
+		42993D874D59446BB78809D2 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 174131ECC6194C1599CBA099 /* RobotoCondensed-Regular.ttf */; };
+		44344E103FE84888B0795729 /* profile-pic-8.png in Resources */ = {isa = PBXBuildFile; fileRef = C2322EB68C4D4178BF956599 /* profile-pic-8.png */; };
+		47874CA46A26419EA2380E52 /* salt.png in Resources */ = {isa = PBXBuildFile; fileRef = F8603FB3903F49488D125245 /* salt.png */; };
+		48EAF510E7B6426AB0A3A0DD /* spagetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D92B456BC447789D0C6C9 /* spagetti.png */; };
+		4DF3B86B7F2E4820B6D164E9 /* cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 1168B4845C6F43A98D1A6D79 /* cheese.png */; };
+		50DAE193383C40139094DD0E /* satay.png in Resources */ = {isa = PBXBuildFile; fileRef = 47BC8F9B86BD4F3F9BED92B6 /* satay.png */; };
+		511A78C66E574BFEA7A66750 /* profile-pic-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F48706A858740ECB45251AA /* profile-pic-9.png */; };
+		519F384EA250438AB9B3C642 /* potato.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C692BEC7E70405D975E4FEC /* potato.png */; };
+		5504E91F8C334F838A84346A /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 601BA1221FF24461A5E67470 /* Roboto-MediumItalic.ttf */; };
+		598C815930AB453C949A4C7E /* lemongrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 18393AA6EC3344B081C9473F /* lemongrass.png */; };
+		5E89AEE477664A429799AA71 /* pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD47874E37646849E6AB45E /* pepper.png */; };
+		6059EDB967DF41998B4701CE /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC0C035B72C4FE297AF37B2 /* back.png */; };
+		614069C5EF7F4E91BF7DF770 /* profile-pic-5.png in Resources */ = {isa = PBXBuildFile; fileRef = FE031F7408AD400CB79B774B /* profile-pic-5.png */; };
+		635EA62D9B584DE79F97BFDF /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 191FA2FA6099401BAE84E11A /* bookmark.png */; };
+		6A5F24A82FA14C27916486F6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8A8E90B5E94430893B1A47 /* settings.png */; };
+		71C1C0FEBB7E4DEC858F67C9 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D6CB7F0BC3142B89FEA28E3 /* Roboto-Thin.ttf */; };
+		763A39D3988D4B079310CF7D /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E96ED83E20494A8CF7CB36 /* RobotoCondensed-Bold.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-foodRecipe-foodRecipeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-foodRecipe-foodRecipeTests.a */; };
+		7732EAD00C6F47F189D30129 /* profile-pic-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDA6883C604E5D8D8D95CA /* profile-pic-3.png */; };
+		7BE51313D3FB40F3B7BB1510 /* sugar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F045E334AFE428B955C7651 /* sugar.png */; };
+		7E5F53E2A53F49E691510DF6 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27EC8B49B5FE4298B6F5022F /* Roboto-BlackItalic.ttf */; };
+		81AA058B305F4718A27A9A75 /* oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 3735397E31D246F3A104B609 /* oil.png */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84306114CE4A44608C5E6735 /* rice.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DBAE88D92248789A115F2F /* rice.png */; };
+		857659FB188444ECA65EE167 /* nasi-lemak.webp in Resources */ = {isa = PBXBuildFile; fileRef = F73A706CD6154E95AF047C3C /* nasi-lemak.webp */; };
+		8759BE1AC8CC47428017C31A /* profile-pic-6.png in Resources */ = {isa = PBXBuildFile; fileRef = FB13A195FD4841BF86F83DC6 /* profile-pic-6.png */; };
+		879B8DC5DF6F4944B5A62C2B /* recipe.png in Resources */ = {isa = PBXBuildFile; fileRef = 97629431E3734C2CA7DB79FB /* recipe.png */; };
+		8D4B67BC56A44530904C7082 /* chilli.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0BCDF501B348A6953EF53D /* chilli.png */; };
+		95EDD49B5BA5440C9E2A66A4 /* shrimp.png in Resources */ = {isa = PBXBuildFile; fileRef = BA66E29601484AC39D62DB6D /* shrimp.png */; };
+		9A0E9589FF074075BF9BA6AC /* profile-pic-2.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A096283460454CB9B41662 /* profile-pic-2.png */; };
+		A4014D18B57443B4B8EB0771 /* coriander.png in Resources */ = {isa = PBXBuildFile; fileRef = A49869CB905C4C018B18E45B /* coriander.png */; };
+		A5A14F5DE07A441AAABDEB46 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A030BAF33D4042F3A7629E0B /* Roboto-Light.ttf */; };
+		A5AD68CC0EAE487B92945124 /* onion.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F6F5CBA1C74A629AC8A502 /* onion.png */; };
+		AC67DD88A7A447F6A8387C6B /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FCA01AF07C4FF8ABD8FD7B /* profile.png */; };
+		B05CAAAD92534B4EAEC14B25 /* pasta.png in Resources */ = {isa = PBXBuildFile; fileRef = F25143D69FEC47ACAD7A7758 /* pasta.png */; };
+		B60610598409442FB4858694 /* profile-pic-10.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD0D5BC08E847AEB7C70092 /* profile-pic-10.png */; };
+		B72935C931C64A0D9A8E8F3B /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 54FC17A1437F40079EB772EE /* search.png */; };
+		B95269D2B72949A4B134AD59 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA4F6AF57B4848B8AE82ADEB /* RobotoCondensed-Light.ttf */; };
+		BB9A9EE5B2164410B640E73A /* login-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B7E8081DBA504A4E8C168FDB /* login-background.png */; };
+		BE79D5C6C3554107B801FD2B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E01D37CD7FDB4365A036082C /* Roboto-Regular.ttf */; };
+		C04664747309454994A10C71 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64692D6002BF40688A14267B /* Roboto-Black.ttf */; };
+		C416718B2DF841C7BEFC9FED /* bookmark-filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A6021CD97463DB0B964CF /* bookmark-filled.png */; };
+		C4C8816D31524EA59D44D3FB /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = 98773E8F078745FE9B240C76 /* egg.png */; };
+		C507CD62DD154FBEAC492C0F /* profile-pic-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 45962DDF9A164A4CB30C4F17 /* profile-pic-7.png */; };
+		C9227FB1A62C47F6BC4CF80B /* shallot.png in Resources */ = {isa = PBXBuildFile; fileRef = E271FB67E0E04FC1A40ED2FA /* shallot.png */; };
+		D441A5FA1B3A4A97AC0E4764 /* RobotoCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68C4DF15F0DC4E78B73C33C1 /* RobotoCondensed-Italic.ttf */; };
+		DA08CB5147CA4C9ABAB16D5E /* profile-pic-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AA5CDA40994D52BA1A8481 /* profile-pic-1.png */; };
+		E4C179547054492D96F184D1 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9BEE3B2D9B4C47AE00E67B /* Roboto-ThinItalic.ttf */; };
+		EC3B526C494A495F8135F2A6 /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 697A8EAE09EC4492A41E9410 /* chicken.png */; };
+		ED6C4B8B6E08428588A43306 /* RobotoCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF3E3C95742B4E54A9813E39 /* RobotoCondensed-LightItalic.ttf */; };
+		F19CFC89BA07411B96EDEE5A /* garlic.png in Resources */ = {isa = PBXBuildFile; fileRef = F9483F28B30E4382ACE16348 /* garlic.png */; };
+		F35EA8682F314BC7A787A79D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C93A942ADBE849EAB7008356 /* Roboto-Medium.ttf */; };
+		FE68E5CCEDD54061AE02D07B /* anchovy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A93DD1136F344338AAB98D5 /* anchovy.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = foodRecipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* foodRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* foodRecipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foodRecipeTests.m; sourceTree = "<group>"; };
+		0C692BEC7E70405D975E4FEC /* potato.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = potato.png; path = ../app/assets/icons/potato.png; sourceTree = "<group>"; };
+		1168B4845C6F43A98D1A6D79 /* cheese.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = cheese.png; path = ../app/assets/icons/cheese.png; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* foodRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = foodRecipe/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = foodRecipe/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = foodRecipe/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = foodRecipe/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = foodRecipe/main.m; sourceTree = "<group>"; };
+		174131ECC6194C1599CBA099 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Regular.ttf"; path = "../app/assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		18393AA6EC3344B081C9473F /* lemongrass.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = lemongrass.png; path = ../app/assets/icons/lemongrass.png; sourceTree = "<group>"; };
+		191FA2FA6099401BAE84E11A /* bookmark.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = bookmark.png; path = ../app/assets/icons/bookmark.png; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-foodRecipe-foodRecipeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foodRecipe-foodRecipeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0BCDF501B348A6953EF53D /* chilli.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = chilli.png; path = ../app/assets/icons/chilli.png; sourceTree = "<group>"; };
+		27EC8B49B5FE4298B6F5022F /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2D6CB7F0BC3142B89FEA28E3 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../app/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		2E4D38FFF0D04C06A8B7DB06 /* laksa.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = laksa.png; path = ../app/assets/images/recipes/laksa.png; sourceTree = "<group>"; };
+		3735397E31D246F3A104B609 /* oil.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = oil.png; path = ../app/assets/icons/oil.png; sourceTree = "<group>"; };
+		3A93DD1136F344338AAB98D5 /* anchovy.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = anchovy.png; path = ../app/assets/icons/anchovy.png; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-foodRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodRecipe.debug.xcconfig"; path = "Target Support Files/Pods-foodRecipe/Pods-foodRecipe.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5A6021CD97463DB0B964CF /* bookmark-filled.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "bookmark-filled.png"; path = "../app/assets/icons/bookmark-filled.png"; sourceTree = "<group>"; };
+		44AA5CDA40994D52BA1A8481 /* profile-pic-1.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-1.png"; path = "../app/assets/images/dummy_profiles/profile-pic-1.png"; sourceTree = "<group>"; };
+		45962DDF9A164A4CB30C4F17 /* profile-pic-7.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-7.png"; path = "../app/assets/images/dummy_profiles/profile-pic-7.png"; sourceTree = "<group>"; };
+		45DBAE88D92248789A115F2F /* rice.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = rice.png; path = ../app/assets/icons/rice.png; sourceTree = "<group>"; };
+		47BC8F9B86BD4F3F9BED92B6 /* satay.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = satay.png; path = ../app/assets/images/recipes/satay.png; sourceTree = "<group>"; };
+		4DEDA6883C604E5D8D8D95CA /* profile-pic-3.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-3.png"; path = "../app/assets/images/dummy_profiles/profile-pic-3.png"; sourceTree = "<group>"; };
+		54FC17A1437F40079EB772EE /* search.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = search.png; path = ../app/assets/icons/search.png; sourceTree = "<group>"; };
+		558729F8EE7542ACBD5D22F8 /* tomato.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = tomato.png; path = ../app/assets/icons/tomato.png; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-foodRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodRecipe.release.xcconfig"; path = "Target Support Files/Pods-foodRecipe/Pods-foodRecipe.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-foodRecipe-foodRecipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodRecipe-foodRecipeTests.debug.xcconfig"; path = "Target Support Files/Pods-foodRecipe-foodRecipeTests/Pods-foodRecipe-foodRecipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-foodRecipe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foodRecipe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F045E334AFE428B955C7651 /* sugar.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = sugar.png; path = ../app/assets/icons/sugar.png; sourceTree = "<group>"; };
+		601BA1221FF24461A5E67470 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../app/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		63FCA01AF07C4FF8ABD8FD7B /* profile.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = profile.png; path = ../app/assets/images/dummy_profiles/profile.png; sourceTree = "<group>"; };
+		64692D6002BF40688A14267B /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../app/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		64E96ED83E20494A8CF7CB36 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Bold.ttf"; path = "../app/assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		68C4DF15F0DC4E78B73C33C1 /* RobotoCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Italic.ttf"; path = "../app/assets/fonts/RobotoCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		697A8EAE09EC4492A41E9410 /* chicken.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = chicken.png; path = ../app/assets/icons/chicken.png; sourceTree = "<group>"; };
+		69C745758D404252867AC356 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../app/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		7A6D92B456BC447789D0C6C9 /* spagetti.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = spagetti.png; path = ../app/assets/images/recipes/spagetti.png; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = foodRecipe/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-foodRecipe-foodRecipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foodRecipe-foodRecipeTests.release.xcconfig"; path = "Target Support Files/Pods-foodRecipe-foodRecipeTests/Pods-foodRecipe-foodRecipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BC0C035B72C4FE297AF37B2 /* back.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = back.png; path = ../app/assets/icons/back.png; sourceTree = "<group>"; };
+		97629431E3734C2CA7DB79FB /* recipe.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = recipe.png; path = ../app/assets/images/recipes/recipe.png; sourceTree = "<group>"; };
+		98773E8F078745FE9B240C76 /* egg.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = egg.png; path = ../app/assets/icons/egg.png; sourceTree = "<group>"; };
+		9ECC61F0B53A43069019F087 /* home.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = home.png; path = ../app/assets/icons/home.png; sourceTree = "<group>"; };
+		9F48706A858740ECB45251AA /* profile-pic-9.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-9.png"; path = "../app/assets/images/dummy_profiles/profile-pic-9.png"; sourceTree = "<group>"; };
+		A030BAF33D4042F3A7629E0B /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../app/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A49869CB905C4C018B18E45B /* coriander.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = coriander.png; path = ../app/assets/icons/coriander.png; sourceTree = "<group>"; };
+		AEB2DF5CCDAC48EAADD66C6F /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B7E8081DBA504A4E8C168FDB /* login-background.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "login-background.png"; path = "../app/assets/images/system/login-background.png"; sourceTree = "<group>"; };
+		BA66E29601484AC39D62DB6D /* shrimp.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = shrimp.png; path = ../app/assets/icons/shrimp.png; sourceTree = "<group>"; };
+		BA9BEE3B2D9B4C47AE00E67B /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C2322EB68C4D4178BF956599 /* profile-pic-8.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-8.png"; path = "../app/assets/images/dummy_profiles/profile-pic-8.png"; sourceTree = "<group>"; };
+		C93A942ADBE849EAB7008356 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../app/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CDDD1A4C23AB4FA28C381BD2 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../app/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CE8A8E90B5E94430893B1A47 /* settings.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = settings.png; path = ../app/assets/icons/settings.png; sourceTree = "<group>"; };
+		CEA13594AAB045E1A05BC2DB /* right-arrow.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "right-arrow.png"; path = "../app/assets/icons/right-arrow.png"; sourceTree = "<group>"; };
+		CEEAB8F80C0B44BA9CD73FD4 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../app/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		D385AAC129D5416E81A1BCB2 /* profile-pic-4.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-4.png"; path = "../app/assets/images/dummy_profiles/profile-pic-4.png"; sourceTree = "<group>"; };
+		D7E82E2007BA4AF99AA4B873 /* RobotoCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-BoldItalic.ttf"; path = "../app/assets/fonts/RobotoCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DFD47874E37646849E6AB45E /* pepper.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = pepper.png; path = ../app/assets/icons/pepper.png; sourceTree = "<group>"; };
+		E01D37CD7FDB4365A036082C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E271FB67E0E04FC1A40ED2FA /* shallot.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = shallot.png; path = ../app/assets/icons/shallot.png; sourceTree = "<group>"; };
+		E3F6F5CBA1C74A629AC8A502 /* onion.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = onion.png; path = ../app/assets/icons/onion.png; sourceTree = "<group>"; };
+		E9A096283460454CB9B41662 /* profile-pic-2.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-2.png"; path = "../app/assets/images/dummy_profiles/profile-pic-2.png"; sourceTree = "<group>"; };
+		EA4F6AF57B4848B8AE82ADEB /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-Light.ttf"; path = "../app/assets/fonts/RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF3E3C95742B4E54A9813E39 /* RobotoCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "RobotoCondensed-LightItalic.ttf"; path = "../app/assets/fonts/RobotoCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		F25143D69FEC47ACAD7A7758 /* pasta.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = pasta.png; path = ../app/assets/icons/pasta.png; sourceTree = "<group>"; };
+		F73A706CD6154E95AF047C3C /* nasi-lemak.webp */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "nasi-lemak.webp"; path = "../app/assets/images/recipes/nasi-lemak.webp"; sourceTree = "<group>"; };
+		F8603FB3903F49488D125245 /* salt.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = salt.png; path = ../app/assets/icons/salt.png; sourceTree = "<group>"; };
+		F9483F28B30E4382ACE16348 /* garlic.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = garlic.png; path = ../app/assets/icons/garlic.png; sourceTree = "<group>"; };
+		FAD0D5BC08E847AEB7C70092 /* profile-pic-10.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-10.png"; path = "../app/assets/images/dummy_profiles/profile-pic-10.png"; sourceTree = "<group>"; };
+		FB13A195FD4841BF86F83DC6 /* profile-pic-6.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-6.png"; path = "../app/assets/images/dummy_profiles/profile-pic-6.png"; sourceTree = "<group>"; };
+		FE031F7408AD400CB79B774B /* profile-pic-5.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "profile-pic-5.png"; path = "../app/assets/images/dummy_profiles/profile-pic-5.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-foodRecipe-foodRecipeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-foodRecipe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* foodRecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* foodRecipeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = foodRecipeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* foodRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = foodRecipe;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-foodRecipe.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-foodRecipe-foodRecipeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52859DB6F32D4E93B3440648 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64692D6002BF40688A14267B /* Roboto-Black.ttf */,
+				27EC8B49B5FE4298B6F5022F /* Roboto-BlackItalic.ttf */,
+				CDDD1A4C23AB4FA28C381BD2 /* Roboto-Bold.ttf */,
+				AEB2DF5CCDAC48EAADD66C6F /* Roboto-BoldItalic.ttf */,
+				CEEAB8F80C0B44BA9CD73FD4 /* Roboto-Italic.ttf */,
+				A030BAF33D4042F3A7629E0B /* Roboto-Light.ttf */,
+				69C745758D404252867AC356 /* Roboto-LightItalic.ttf */,
+				C93A942ADBE849EAB7008356 /* Roboto-Medium.ttf */,
+				601BA1221FF24461A5E67470 /* Roboto-MediumItalic.ttf */,
+				E01D37CD7FDB4365A036082C /* Roboto-Regular.ttf */,
+				2D6CB7F0BC3142B89FEA28E3 /* Roboto-Thin.ttf */,
+				BA9BEE3B2D9B4C47AE00E67B /* Roboto-ThinItalic.ttf */,
+				64E96ED83E20494A8CF7CB36 /* RobotoCondensed-Bold.ttf */,
+				D7E82E2007BA4AF99AA4B873 /* RobotoCondensed-BoldItalic.ttf */,
+				68C4DF15F0DC4E78B73C33C1 /* RobotoCondensed-Italic.ttf */,
+				EA4F6AF57B4848B8AE82ADEB /* RobotoCondensed-Light.ttf */,
+				EF3E3C95742B4E54A9813E39 /* RobotoCondensed-LightItalic.ttf */,
+				174131ECC6194C1599CBA099 /* RobotoCondensed-Regular.ttf */,
+				3A93DD1136F344338AAB98D5 /* anchovy.png */,
+				8BC0C035B72C4FE297AF37B2 /* back.png */,
+				3C5A6021CD97463DB0B964CF /* bookmark-filled.png */,
+				191FA2FA6099401BAE84E11A /* bookmark.png */,
+				1168B4845C6F43A98D1A6D79 /* cheese.png */,
+				697A8EAE09EC4492A41E9410 /* chicken.png */,
+				1F0BCDF501B348A6953EF53D /* chilli.png */,
+				A49869CB905C4C018B18E45B /* coriander.png */,
+				98773E8F078745FE9B240C76 /* egg.png */,
+				F9483F28B30E4382ACE16348 /* garlic.png */,
+				9ECC61F0B53A43069019F087 /* home.png */,
+				18393AA6EC3344B081C9473F /* lemongrass.png */,
+				3735397E31D246F3A104B609 /* oil.png */,
+				E3F6F5CBA1C74A629AC8A502 /* onion.png */,
+				F25143D69FEC47ACAD7A7758 /* pasta.png */,
+				DFD47874E37646849E6AB45E /* pepper.png */,
+				0C692BEC7E70405D975E4FEC /* potato.png */,
+				45DBAE88D92248789A115F2F /* rice.png */,
+				CEA13594AAB045E1A05BC2DB /* right-arrow.png */,
+				F8603FB3903F49488D125245 /* salt.png */,
+				54FC17A1437F40079EB772EE /* search.png */,
+				CE8A8E90B5E94430893B1A47 /* settings.png */,
+				E271FB67E0E04FC1A40ED2FA /* shallot.png */,
+				BA66E29601484AC39D62DB6D /* shrimp.png */,
+				5F045E334AFE428B955C7651 /* sugar.png */,
+				558729F8EE7542ACBD5D22F8 /* tomato.png */,
+				44AA5CDA40994D52BA1A8481 /* profile-pic-1.png */,
+				FAD0D5BC08E847AEB7C70092 /* profile-pic-10.png */,
+				E9A096283460454CB9B41662 /* profile-pic-2.png */,
+				4DEDA6883C604E5D8D8D95CA /* profile-pic-3.png */,
+				D385AAC129D5416E81A1BCB2 /* profile-pic-4.png */,
+				FE031F7408AD400CB79B774B /* profile-pic-5.png */,
+				FB13A195FD4841BF86F83DC6 /* profile-pic-6.png */,
+				45962DDF9A164A4CB30C4F17 /* profile-pic-7.png */,
+				C2322EB68C4D4178BF956599 /* profile-pic-8.png */,
+				9F48706A858740ECB45251AA /* profile-pic-9.png */,
+				63FCA01AF07C4FF8ABD8FD7B /* profile.png */,
+				2E4D38FFF0D04C06A8B7DB06 /* laksa.png */,
+				F73A706CD6154E95AF047C3C /* nasi-lemak.webp */,
+				97629431E3734C2CA7DB79FB /* recipe.png */,
+				47BC8F9B86BD4F3F9BED92B6 /* satay.png */,
+				7A6D92B456BC447789D0C6C9 /* spagetti.png */,
+				B7E8081DBA504A4E8C168FDB /* login-background.png */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* foodRecipe */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* foodRecipeTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				52859DB6F32D4E93B3440648 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* foodRecipe.app */,
+				00E356EE1AD99517003FC87E /* foodRecipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-foodRecipe.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-foodRecipe.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-foodRecipe-foodRecipeTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-foodRecipe-foodRecipeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* foodRecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "foodRecipeTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = foodRecipeTests;
+			productName = foodRecipeTests;
+			productReference = 00E356EE1AD99517003FC87E /* foodRecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* foodRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "foodRecipe" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foodRecipe;
+			productName = foodRecipe;
+			productReference = 13B07F961A680F5B00A75B9A /* foodRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "foodRecipe" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* foodRecipe */,
+				00E356ED1AD99517003FC87E /* foodRecipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C04664747309454994A10C71 /* Roboto-Black.ttf in Resources */,
+				7E5F53E2A53F49E691510DF6 /* Roboto-BlackItalic.ttf in Resources */,
+				2A41DE447D53420FA70376ED /* Roboto-Bold.ttf in Resources */,
+				3624061180C348FC9A8EB3C0 /* Roboto-BoldItalic.ttf in Resources */,
+				2AECC739550B49C3B05A7D7F /* Roboto-Italic.ttf in Resources */,
+				A5A14F5DE07A441AAABDEB46 /* Roboto-Light.ttf in Resources */,
+				1B7360B11CF7469B8122FB2A /* Roboto-LightItalic.ttf in Resources */,
+				F35EA8682F314BC7A787A79D /* Roboto-Medium.ttf in Resources */,
+				5504E91F8C334F838A84346A /* Roboto-MediumItalic.ttf in Resources */,
+				BE79D5C6C3554107B801FD2B /* Roboto-Regular.ttf in Resources */,
+				71C1C0FEBB7E4DEC858F67C9 /* Roboto-Thin.ttf in Resources */,
+				E4C179547054492D96F184D1 /* Roboto-ThinItalic.ttf in Resources */,
+				763A39D3988D4B079310CF7D /* RobotoCondensed-Bold.ttf in Resources */,
+				03635CB7678341F691E7475E /* RobotoCondensed-BoldItalic.ttf in Resources */,
+				D441A5FA1B3A4A97AC0E4764 /* RobotoCondensed-Italic.ttf in Resources */,
+				B95269D2B72949A4B134AD59 /* RobotoCondensed-Light.ttf in Resources */,
+				ED6C4B8B6E08428588A43306 /* RobotoCondensed-LightItalic.ttf in Resources */,
+				42993D874D59446BB78809D2 /* RobotoCondensed-Regular.ttf in Resources */,
+				FE68E5CCEDD54061AE02D07B /* anchovy.png in Resources */,
+				6059EDB967DF41998B4701CE /* back.png in Resources */,
+				C416718B2DF841C7BEFC9FED /* bookmark-filled.png in Resources */,
+				635EA62D9B584DE79F97BFDF /* bookmark.png in Resources */,
+				4DF3B86B7F2E4820B6D164E9 /* cheese.png in Resources */,
+				EC3B526C494A495F8135F2A6 /* chicken.png in Resources */,
+				8D4B67BC56A44530904C7082 /* chilli.png in Resources */,
+				A4014D18B57443B4B8EB0771 /* coriander.png in Resources */,
+				C4C8816D31524EA59D44D3FB /* egg.png in Resources */,
+				F19CFC89BA07411B96EDEE5A /* garlic.png in Resources */,
+				36AA5912830741D1BE2B9E80 /* home.png in Resources */,
+				598C815930AB453C949A4C7E /* lemongrass.png in Resources */,
+				81AA058B305F4718A27A9A75 /* oil.png in Resources */,
+				A5AD68CC0EAE487B92945124 /* onion.png in Resources */,
+				B05CAAAD92534B4EAEC14B25 /* pasta.png in Resources */,
+				5E89AEE477664A429799AA71 /* pepper.png in Resources */,
+				519F384EA250438AB9B3C642 /* potato.png in Resources */,
+				84306114CE4A44608C5E6735 /* rice.png in Resources */,
+				2A510CD1C9764A67A3907544 /* right-arrow.png in Resources */,
+				47874CA46A26419EA2380E52 /* salt.png in Resources */,
+				B72935C931C64A0D9A8E8F3B /* search.png in Resources */,
+				6A5F24A82FA14C27916486F6 /* settings.png in Resources */,
+				C9227FB1A62C47F6BC4CF80B /* shallot.png in Resources */,
+				95EDD49B5BA5440C9E2A66A4 /* shrimp.png in Resources */,
+				7BE51313D3FB40F3B7BB1510 /* sugar.png in Resources */,
+				375B92EF2B5F4D259B6C86FB /* tomato.png in Resources */,
+				DA08CB5147CA4C9ABAB16D5E /* profile-pic-1.png in Resources */,
+				B60610598409442FB4858694 /* profile-pic-10.png in Resources */,
+				9A0E9589FF074075BF9BA6AC /* profile-pic-2.png in Resources */,
+				7732EAD00C6F47F189D30129 /* profile-pic-3.png in Resources */,
+				0D340D979E2848758A32A1FE /* profile-pic-4.png in Resources */,
+				614069C5EF7F4E91BF7DF770 /* profile-pic-5.png in Resources */,
+				8759BE1AC8CC47428017C31A /* profile-pic-6.png in Resources */,
+				C507CD62DD154FBEAC492C0F /* profile-pic-7.png in Resources */,
+				44344E103FE84888B0795729 /* profile-pic-8.png in Resources */,
+				511A78C66E574BFEA7A66750 /* profile-pic-9.png in Resources */,
+				AC67DD88A7A447F6A8387C6B /* profile.png in Resources */,
+				2CB7F99403B44EF9839DA08A /* laksa.png in Resources */,
+				857659FB188444ECA65EE167 /* nasi-lemak.webp in Resources */,
+				879B8DC5DF6F4944B5A62C2B /* recipe.png in Resources */,
+				50DAE193383C40139094DD0E /* satay.png in Resources */,
+				48EAF510E7B6426AB0A3A0DD /* spagetti.png in Resources */,
+				BB9A9EE5B2164410B640E73A /* login-background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodRecipe/Pods-foodRecipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodRecipe/Pods-foodRecipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodRecipe/Pods-foodRecipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodRecipe-foodRecipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foodRecipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodRecipe-foodRecipeTests/Pods-foodRecipe-foodRecipeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodRecipe-foodRecipeTests/Pods-foodRecipe-foodRecipeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodRecipe-foodRecipeTests/Pods-foodRecipe-foodRecipeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodRecipe/Pods-foodRecipe-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodRecipe/Pods-foodRecipe-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodRecipe/Pods-foodRecipe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodRecipe-foodRecipeTests/Pods-foodRecipe-foodRecipeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-foodRecipe-foodRecipeTests/Pods-foodRecipe-foodRecipeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-foodRecipe-foodRecipeTests/Pods-foodRecipe-foodRecipeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* foodRecipeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* foodRecipe */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-foodRecipe-foodRecipeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = foodRecipeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodRecipe.app/foodRecipe";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-foodRecipe-foodRecipeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = foodRecipeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodRecipe.app/foodRecipe";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-foodRecipe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = foodRecipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = foodRecipe;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-foodRecipe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = foodRecipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = foodRecipe;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "foodRecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "foodRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "foodRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

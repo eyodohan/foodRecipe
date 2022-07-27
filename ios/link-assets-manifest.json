@@ -1,0 +1,249 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/Roboto-Black.ttf",
+      "sha1": "14701060227dbc4a4ec9901970e8a58bb136efd9"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-BlackItalic.ttf",
+      "sha1": "3009f8bc7f3aa84fd483469422442cc3789e0579"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Bold.ttf",
+      "sha1": "6cbb57ba2355cf442e06899898ff5af55867103e"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-BoldItalic.ttf",
+      "sha1": "cd6a28033099099036e2a2182c9c4475394deaad"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Italic.ttf",
+      "sha1": "4c4faf7a3fae4d0b1474561f0080995d358861ac"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Light.ttf",
+      "sha1": "191dda7a5142990cd980727d43b27e4802f0b321"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-LightItalic.ttf",
+      "sha1": "693445f41eaa750b789a77568f9d6d995e85e0b2"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Medium.ttf",
+      "sha1": "adbc3bde424bcf7dbc38f148005c8319825891f2"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-MediumItalic.ttf",
+      "sha1": "75feb92a7fc61d00e8ca610a700344738ef5ae32"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Regular.ttf",
+      "sha1": "1d1d41fcadc571decb6444211b7993b99ce926e2"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-Thin.ttf",
+      "sha1": "f71ccd563f95ccc187cf4fe81287445e91f7121b"
+    },
+    {
+      "path": "app/assets/fonts/Roboto-ThinItalic.ttf",
+      "sha1": "e3fb2b2a0dc2daf84d79cfff4b345a2afac132bc"
+    },
+    {
+      "path": "app/assets/fonts/RobotoCondensed-Bold.ttf",
+      "sha1": "c348d9f1b95e103ac2d14d56682867368f385b1a"
+    },
+    {
+      "path": "app/assets/fonts/RobotoCondensed-BoldItalic.ttf",
+      "sha1": "3bd9f2b8c65c4dd80f535b9ddd937784e0d71ce6"
+    },
+    {
+      "path": "app/assets/fonts/RobotoCondensed-Italic.ttf",
+      "sha1": "394439fa97f36bba80f061e32e46ead1650e798e"
+    },
+    {
+      "path": "app/assets/fonts/RobotoCondensed-Light.ttf",
+      "sha1": "df222c27b5e41dc89ca76a4479c9dd3ae6c1acbc"
+    },
+    {
+      "path": "app/assets/fonts/RobotoCondensed-LightItalic.ttf",
+      "sha1": "d974583f3217141e4fc04bf94c3c6f94d9f56f8f"
+    },
+    {
+      "path": "app/assets/fonts/RobotoCondensed-Regular.ttf",
+      "sha1": "c722696501a8663d64208d754e4db8165d3936f6"
+    },
+    {
+      "path": "app/assets/icons/anchovy.png",
+      "sha1": "163bae437eebc1edc0a0d4331a3d3cb42a2cf8b9"
+    },
+    {
+      "path": "app/assets/icons/back.png",
+      "sha1": "16317ee00d2e3640e44cb5f89b44d6865e453b33"
+    },
+    {
+      "path": "app/assets/icons/bookmark-filled.png",
+      "sha1": "99e32ad23aed08e9af566a3cb750586c7b96925b"
+    },
+    {
+      "path": "app/assets/icons/bookmark.png",
+      "sha1": "906d5501f259c81814a5cf2a935af6fce7e0dc47"
+    },
+    {
+      "path": "app/assets/icons/cheese.png",
+      "sha1": "c2d1edf39fd65cf0bebf7847759835734d1c5190"
+    },
+    {
+      "path": "app/assets/icons/chicken.png",
+      "sha1": "3c4c30a171eae05485c7a0c2469e7c5b030dc02c"
+    },
+    {
+      "path": "app/assets/icons/chilli.png",
+      "sha1": "f78fbade75b472dee4b0e803f771e8a3f4c927e5"
+    },
+    {
+      "path": "app/assets/icons/coriander.png",
+      "sha1": "dfce86db1b4ba7ebb74e5ef20df28e5bf3181c30"
+    },
+    {
+      "path": "app/assets/icons/egg.png",
+      "sha1": "d14abc7ea28ea3b51f0cf6b6a94442dba1eec483"
+    },
+    {
+      "path": "app/assets/icons/garlic.png",
+      "sha1": "9ad5aed7e404f7554b7705ed488796d88ea04b34"
+    },
+    {
+      "path": "app/assets/icons/home.png",
+      "sha1": "cea81c9027886d3ba9fc12bcea062a1ece03f9b9"
+    },
+    {
+      "path": "app/assets/icons/lemongrass.png",
+      "sha1": "5c1e454c452649f09cf8097f2f7606e963d530cb"
+    },
+    {
+      "path": "app/assets/icons/oil.png",
+      "sha1": "43019f5b20a9d7ac7cfd5fe9e17408655f856c54"
+    },
+    {
+      "path": "app/assets/icons/onion.png",
+      "sha1": "09bf8414f1741f7b7ba54bf8af08c87f31a32ab1"
+    },
+    {
+      "path": "app/assets/icons/pasta.png",
+      "sha1": "350b41c7b02e9ebaf2c80f639c22669dacfb3ce1"
+    },
+    {
+      "path": "app/assets/icons/pepper.png",
+      "sha1": "bbee4a6e738e1486ee14bac960e1d20e3015ca12"
+    },
+    {
+      "path": "app/assets/icons/potato.png",
+      "sha1": "9804a90baf66be9f3419565951df960dcc5cda36"
+    },
+    {
+      "path": "app/assets/icons/rice.png",
+      "sha1": "e4d7bbf5c56f90a0cba304127fd0415d1e7192b2"
+    },
+    {
+      "path": "app/assets/icons/right-arrow.png",
+      "sha1": "8cdb5f3be72168c0852d2eb582768c1dcad8ecd0"
+    },
+    {
+      "path": "app/assets/icons/salt.png",
+      "sha1": "3e01c2304dfccb831f19c2302a29340b2f2ecf06"
+    },
+    {
+      "path": "app/assets/icons/search.png",
+      "sha1": "1852742899415e6b03f0d7f64a0d4a5146fd6d31"
+    },
+    {
+      "path": "app/assets/icons/settings.png",
+      "sha1": "6fe4509022f011f9a53825b1b1cc03b821d81e5c"
+    },
+    {
+      "path": "app/assets/icons/shallot.png",
+      "sha1": "a07d92116352b196a185a592e3758da99f0e32ab"
+    },
+    {
+      "path": "app/assets/icons/shrimp.png",
+      "sha1": "ff75c0f167a746e50063dd9600c470b8fb5e219a"
+    },
+    {
+      "path": "app/assets/icons/sugar.png",
+      "sha1": "ca7209223e46e8f8d21eb86bf6958d94e61ada6c"
+    },
+    {
+      "path": "app/assets/icons/tomato.png",
+      "sha1": "8f189325619ff5dbc348fe00c156234df607552f"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-1.png",
+      "sha1": "abeee2493c1db4be37e236a03ec98f26bdbe7d29"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-10.png",
+      "sha1": "65a4721581dccbbb1b9fe360a1b4aba254a9eb61"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-2.png",
+      "sha1": "51a1bcedaee7c8aac770e1f59c5ba765fddd2d3b"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-3.png",
+      "sha1": "aeed35b273136b663d687aa2a9da94f53285e64c"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-4.png",
+      "sha1": "b8a6608953f73c56acae29bd8b9c7bcb63baa4fc"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-5.png",
+      "sha1": "5a2435a840e09c9a71659a457212421bd351066d"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-6.png",
+      "sha1": "bf14e851828e7aec2e1e81c762a466f5ef006e09"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-7.png",
+      "sha1": "1654a2b534a614b222ce5733b1dfff996eba1669"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-8.png",
+      "sha1": "9161b655215214bff021976d6f592fd1b8b1d11e"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile-pic-9.png",
+      "sha1": "1826ac99ea23e98bd8a008703d849a5a642f58ab"
+    },
+    {
+      "path": "app/assets/images/dummy_profiles/profile.png",
+      "sha1": "b42e4c40608a7fb2ff3b519c698bc6c7079474bc"
+    },
+    {
+      "path": "app/assets/images/recipes/laksa.png",
+      "sha1": "20f86aee219d51a124417f09fb3015186f66d1e6"
+    },
+    {
+      "path": "app/assets/images/recipes/nasi-lemak.webp",
+      "sha1": "51fa347b9c8ae1988f9639e4fabbe9e9163e466a"
+    },
+    {
+      "path": "app/assets/images/recipes/recipe.png",
+      "sha1": "ba3327b5d8316e8c6ab1d4d94131a1be8f14e6ee"
+    },
+    {
+      "path": "app/assets/images/recipes/satay.png",
+      "sha1": "c2bbc0fe9de89f4fd06445fff9ab7a612b596ed1"
+    },
+    {
+      "path": "app/assets/images/recipes/spagetti.png",
+      "sha1": "4b24dbd9237785368a15d684bc5139358355e0e1"
+    },
+    {
+      "path": "app/assets/images/system/login-background.png",
+      "sha1": "e476919436537da28041e69a3535adefb777029e"
+    }
+  ]
+}
